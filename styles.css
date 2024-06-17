@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    text-align: center;
+}
+header {
+    padding: 2em 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+header nav ul li {
+    margin: 0 15px;
+}
+header h1 {
+    font-size: 2em;
+    text-align: center;
+}
+header nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1em 2em;
+    border-radius: 5px;
+}
+.homee {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1456456496250-d5e7c0a9b44d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: flex-start; 
+    position: relative;
+    text-align: left; 
+}
+.description {
+    padding: 1em;
+    max-width: 50%;
+    text-align: left;
+}
+.description h3 {
+    font-size: 1.5em;
+}
+.description p {
+    font-size: 20px;
+}
+.aboutpage,
+.contactpage {
+    background-color: #fff;
+    padding: 5em 2em;
+}
+.aboutpage h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.aboutpage p {
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contactpage h2 {
+
+    text-align: center  ;
+    margin-bottom: 1em;
+}
+.contactpage form {
+    border-radius: 1em;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+    padding: 1.5em;
+}
+.contactpage form label {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    display: block;
+}
+
+.contactpage form input,
+.contactpage form textarea {
+    padding: 10px;
+    margin: 10px 0 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contactpage form button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background-color: black;
+}   
